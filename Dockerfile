@@ -13,4 +13,4 @@ RUN apk add --no-cache tzdata \
   && echo "Asia/Shanghai" > /etc/timezone
 
 CMD sh /usr/local/bin/start.sh
-EXPOSE 80
+EXPOSE 81
