@@ -9,3 +9,8 @@ docker的nginx服务器镜像
 
 ### 运行
  `docker run -p 81:81  -d nginx:v1`
+ 
+### docker 访问主机端口
+可以通过使用host.docker.internal作为地址
+
+也可以通过ping host.docker.internal来获取宿主机的IP地址
