@@ -14,3 +14,7 @@ docker的nginx服务器镜像
 可以通过使用host.docker.internal作为地址
 
 也可以通过ping host.docker.internal来获取宿主机的IP地址
+
+
+### nginx 配置
+https://www.cnblogs.com/xjnotxj/p/13094290.html
